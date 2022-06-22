@@ -1,7 +1,6 @@
 require 'faye/websocket'
 require 'eventmachine'
 require 'json'
-require 'byebug'
 
 def monitor(data)
   store_name = data['store']
